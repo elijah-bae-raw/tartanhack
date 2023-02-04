@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> cmu munch </title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+   
+</head>
+
+<body>
+    <!-- First Page Menu -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 600px)" href="style/css/css600.css" />
+    <section class="header">
+
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn"><img src="{{url_for('static', filename='menu.png')}}" /></button>
+                <div class="dropdown-content">
+                <ul>
+                    <li><a href="">home</a></li> 
+                    <li><a href="">login</a></li> 
+                    <li><a href="">profile</a></li> 
+                    <li><a href="">blog</a></li>
+                </ul>
+                </div>
+            </div> 
+        </nav>
+
+    <!-- Homepage Styling -->
+
+    <div class="homepage"> 
+        <h1>cmu munch</h1>
+        <a href="/login" class="loginbtn">login</a> 
+        <img src="{{url_for('static', filename='burger_logo.png')}}" />
+        
+
+        <style>
+            .homepage h1 {
+                position: relative;
+                color: white;
+                font-family: 'Gayathri', sans-serif;
+                font-style: regular;
+                font-weight: 300;
+                font-size: 55px;
+                line-height: 60px;
+                text-align: center;
+            }
+
+            .homepage {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+                width: 100%;
+                height: auto;
+                border: none;
+            }
+
+            .loginbtn {
+                position: relative;
+                color: white;
+                text-decoration: none;
+                font-family: 'Gayathri', sans-serif;
+                font-style: normal;
+                font-weight: 50;
+                font-size: 25px;
+                line-height: 30px;
+                left: 25%;
+                text-align: center;
+                padding: 10px;
+                border-radius: 50px;
+                border: 1px solid white;
+            }
+            
+            /* Small Devices  */
+            @media(max-width: 700px) {
+                .homepage h1 {
+                    font-size: 40px;
+                }
+                .hompage {
+                    width: 50%;
+                    height: auto;
+                }
+                .loginbtn {
+                    font-size: 15px;
+                    line-height: 20px;
+                    padding: 5px;
+                }
+            }
+        </style>
+    </div>
+    
+
+</body>
+</html>

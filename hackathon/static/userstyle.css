@@ -1,0 +1,193 @@
+/*Initial State*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background: #3A9FE9;
+}
+
+.header img {
+
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 80px;
+    top: 38px;
+    z-index: +1;
+    
+    background: url(/logo.burger_logo.png);
+}
+
+/*User Profile*/
+
+.profile {
+    box-sizing: border-box;
+    position: absolute;
+    width: 254px;
+    height: 254px;
+    left: 106px;
+    top: 39px;
+    
+    background: #FFE194;
+    border: 7px solid #F0C452;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 200px;
+}
+
+.profile h1 {
+    position: absolute;
+    width: 278px;
+    height: 51px;
+    left: 10px;
+    top: 255px;
+    
+    font-family: 'Gayathri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.profile h3 {
+    position: absolute;
+    color: white;
+    width: 162px;
+    height: 51px;
+    left: 474px;
+    top: 48px;
+    
+    font-family: 'Gayathri', sans-serif;
+    font-style: normal;
+    font-weight: 150;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.profile .box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1127px;
+    height: 66px;
+    left: 448px;
+    top: 106px;
+    padding-left: 20px;
+
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+    border-radius: 50px;
+}
+
+.profile h4 {
+    position: absolute;
+    width: 162px;
+    height: 51px;
+    left: 474px;
+    top: 186px;
+    
+    font-family: 'Gayathri', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 49px;
+    
+    color: #FFFFFF;
+}
+
+.profile .box3 {
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 1127px;
+    height: 127px;
+    left: 448px;
+    top: 465px;
+    
+    background: #F0C452;
+    border: 5px solid #55AD83;
+    border-radius: 80px;
+}
+
+.profile h5 {
+    position: absolute;
+    width: 162px;
+    height: 51px;
+    left: 474px;
+    top: 404px;
+    
+    font-family: 'Gayathri', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 49px;
+    
+    color: #FFFFFF;
+}
+
+.profile h6 {
+    position: absolute;
+    width: 162px;
+    height: 51px;
+    left: 474px;
+    top: 623px;
+    
+    font-family: 'Gayathri', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 49px;
+    
+    color: #FFFFFF;
+}
+
+.profile .box4 {
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 1127px;
+    height: 127px;
+    left: 448px;
+    top: 694px;
+    
+    background: #55AD83;
+    border: 5px solid #FFC634;
+    border-radius: 80px;
+}
+
+.friends {
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 254px;
+    height: 434px;
+    left: 115px;
+    top: 455px;
+    
+    background: #E34A4A;
+    border: 7px solid #F0C452;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+.friends h2 {
+    position: absolute;
+    width: 278px;
+    height: 51px;
+    left: -15px;
+    top: -65px;
+    
+    font-family: 'Gayathri', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}

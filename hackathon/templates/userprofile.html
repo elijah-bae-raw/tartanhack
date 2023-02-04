@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> cmu munch </title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+</head>
+
+<body>
+    <!-- First Page Menu -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 600px)" href="style/css/css600.css" />
+
+    <section class="header">
+
+        <!-- logout button-->
+        <a href='/logout'><button>Logout</button></a>
+
+    </section>
+
+ </body>
+ </html>
+
+ <!-- THIS IS MY CODE FIGURE IT OUT PLEASE (DO NOT CHANGE UNTIL I AM DONE) -->
+
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title> cmu munch </title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='userstyle.css') }}">
+</head>
+
+<body>
+    <!-- First Page Menu -->
+
+    <section class="header">
+        <img src="{{ url_for('static',filename='burger_logo.png') }}">
+    </section>
+    <section class="profile">
+        <h1>{{name}}</h1>
+
+
+        
+
+        <h3>bio</h3>
+        <div class="box">
+            <form action="/bio" method="POST">
+                <b> <input type="text" name="bio" placeholder="Please Enter Your Bio" required></b>
+                <style>
+                    .box input {
+                        box-sizing: border-box;
+                        position: absolute;
+                        width: 1127px;
+                        height: 66px;
+                        left: -2px;
+                        top: -6 px;
+                        padding-left: 20px;
+                        
+                        border: 1px white;
+                        filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+                        border-radius: 50px;
+
+                        font-family: 'Gayathri', sans-serif;
+                        font-style: normal;
+                        font-weight: 100;
+                        font-size: 40px;
+                        line-height: 49px;
+                        
+                        color: none;
+                    }
+                </style>
+            </form>
+        </div>
+        
+        
+        
+
+        <h4>status</h4>
+        <div class="box2">
+            <form action="/status" method="POST", placeholder = "public or private">
+                <b> <input type="text" name="status"></b>
+                <style>
+                    .box2 input {
+                        box-sizing: border-box;
+                        position: absolute;
+                        width: 1127px;
+                        height: 127px;
+                        left: 448px;
+                        top: 247px;
+                        padding-left: 20px;
+                        
+                        background: #55AD83;
+                        border: 5px solid #FFC634;
+                        border-radius: 80px;
+
+                        font-family: 'Gayathri', sans-serif;
+                        font-style: normal;
+                        font-weight: 100;
+                        font-size: 40px;
+                        line-height: 49px;
+                        
+                        color: #FFFFFF;
+                    }
+                </style>
+            </form>
+        </div>
+        </div>
+
+        <h5>craving</h5>
+        <div class="box3">
+            <form action="craving" method="POST">
+                <input id="cravingList" type="text" list="cravingList"  style="padding:0.5em;border-radius:10px;">
+                
+                <datalist id="cravingList">
+                    <option>Au Bon Pain At Skibo Café</option>
+                    <option>Back Bar Grill</option>
+                    <option>Entropy+</option>
+                    <option>Fresh52</option>
+                    <option>Global Eats</option>
+                    <option>Hunan Express</option>
+                    <option>Schatz Dining Room</option>
+                    <option>Stephanie's - Market C</option>
+                    <option>Taste Of India</option>
+                    <option>Urban Revolution</option>
+                    <option>Build Pizza - Rohr Commons</option>
+                    <option>Burger 412 - Rohr Commons</option>
+                    <option>Carnegie Mellon Café - The Egg Shoppe</option>
+                    <option>De Fer Coffee & Tea At Maggie Murph Café</option>
+                    <option>E.A.T. (Evenings At Tepper) - Rohr Commons</option>
+                    <option>The Edge Cafe & Market</option>
+                    <option>The Exchange</option>
+                </datalist>
+                <style>
+                    .box3 input {
+                        box-sizing: border-box;
+                        
+                        position: absolute;
+                        width: 1127px;
+                        height: 127px;
+                        left: 448px;
+                        top: 465px;
+
+                        background: #F0C452;
+                        border: 5px solid #55AD83;
+                        border-radius: 80px;
+
+                        font-family: 'Gayathri', sans-serif;
+                        font-style: normal;
+                        font-weight: 100;
+                        font-size: 40px;
+                        line-height: 49px;
+                        
+                        color: #FFFFFF;
+                    }
+                </style>
+            </form>
+        </div>
+
+        <h6>location</h6>
+        <div class="box4">
+            <form action="location" method="POST">
+                <b> <input type="text" name=""></b>
+                <style>
+                    .box4 input {
+                        box-sizing: border-box;
+                        
+                        position: absolute;
+                        width: 1127px;
+                        height: 127px;
+                        left: 448px;
+                        top: 694px;
+                        
+                        background: #55AD83;
+                        border: 5px solid #FFC634;
+                        border-radius: 80px;
+
+                        font-family: 'Gayathri', sans-serif;
+                        font-style: normal;
+                        font-weight: 100;
+                        font-size: 40px;
+                        line-height: 49px;
+                        
+                        color: #FFFFFF;
+                    }
+                </style>
+            </form>
+        </div>
+
+    </section>
+    <section class="friends">
+        <h2>my friends</h2>
+    </section>
+
+ </body>
+ </html>
+

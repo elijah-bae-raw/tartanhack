@@ -1,0 +1,7 @@
+User('E.K.','B','ekbaraw@gmail.com','1234','Elijah Baraw',set(),None)
+User('Chi','Chen','chi.chen@pennington.org','wfeefwadsfasd','Bio',set(),None)
+User('Jim','Guo','jimguo0109@gmail.com','private','',set(),None)
+User('Elijah','Baraw','ebaraw@andrew.cmu.edu','private','',set(),None)
+User('Elijah','Baraw','BE4773@newtownps.org','does this work','testtesttest',set(),None)
+User('Jim','Guo','jhguo@andrew.cmu.edu','private','',set(),None)
+User('Tedious','Interests','chenchicharlie@vip.163.com','private','',set(),None)

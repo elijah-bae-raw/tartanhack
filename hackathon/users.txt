@@ -1,0 +1,2 @@
+User('charlie','chen','cchic2@andrew.cmu.edu','private','',set(),None)
+User('elijah','baraw','ekbaraw@gmail.com','private','',set(),None)
